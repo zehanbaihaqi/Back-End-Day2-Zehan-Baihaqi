@@ -1,11 +1,16 @@
 package main
  
+import "fmt"
+
 
 func cetakTablePerkalian(number int) {
-
-m  := list(list(range (1*i,(n+1)*i, i)) for i in range (1,n+1))
-
- 
+   for i := 1; i <= number; i++ {
+      for j := 1; i <= number; j++ {
+         fmt.Printf("%d", j * i)
+      }
+      fmt.Print("\n")
+   }
+}
 
 func main() {
 	
