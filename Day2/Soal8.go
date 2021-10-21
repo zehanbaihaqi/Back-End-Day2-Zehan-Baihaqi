@@ -5,7 +5,7 @@ import "fmt"
 
 func cetakTablePerkalian(number int) {
    for i := 1; i <= number; i++ {
-      for j := 1; i <= number; j++ {
+      for j := 1; j <= number; j++ {
          fmt.Printf("%d", j * i)
       }
       fmt.Print("\n")
@@ -37,7 +37,3 @@ func main() {
    
 
 }
-
- //n = 5
-//m = list(list(range(1*i,(n+1)*i, i)) for i in range(1,n+1))
-//pprint.pprint(m)
